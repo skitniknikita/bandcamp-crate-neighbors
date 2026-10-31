@@ -1,0 +1,28 @@
+name: Bug report / Ошибка
+description: Report a reproducible problem with the Chrome extension.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Issues are public. Do not include passwords, cookies, authentication tokens, private account data, or unredacted personal screenshots."
+  - type: input
+    id: versions
+    attributes:
+      label: Chrome and extension versions
+      placeholder: "Chrome 120+, extension 0.1.1"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Explain the expected result and the result you saw. English or Russian is welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include a public release URL if the problem is page-specific.
+    validations:
+      required: true

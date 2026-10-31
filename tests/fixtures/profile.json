@@ -1,0 +1,70 @@
+{
+  "fan_data": {
+    "fan_id": 101,
+    "username": "example_fan",
+    "name": "Example Listener",
+    "following_fans_count": 2,
+    "photo": { "image_id": 50 }
+  },
+  "current_fan": { "fan_id": 101, "username": "example_fan", "name": "Example Listener" },
+  "collection_count": 3,
+  "collection_data": {
+    "item_count": 3,
+    "batch_size": 20,
+    "last_token": "1700000000:12:a::",
+    "sequence": ["a11", "a12"]
+  },
+  "wishlist_data": {
+    "item_count": 2,
+    "batch_size": 20,
+    "last_token": "1690000000:21:a::",
+    "sequence": []
+  },
+  "following_fans_data": {
+    "item_count": 2,
+    "last_token": "1680000000:202",
+    "sequence": []
+  },
+  "item_cache": {
+    "collection": {
+      "a11": {
+        "item_id": 900,
+        "tralbum_id": 11,
+        "tralbum_type": "a",
+        "item_title": "A & B",
+        "band_name": "Example Artist",
+        "band_id": 5,
+        "album_id": 11,
+        "item_art_id": 1001,
+        "item_url": "https://exampleartist.bandcamp.com/album/a-and-b",
+        "purchased": "01 Jan 2024 00:00:00 GMT",
+        "download_available": true,
+        "gift_sender_note": "Not retained by the adapter"
+      },
+      "a12": {
+        "tralbum_id": 12,
+        "tralbum_type": "a",
+        "item_title": "Second Record",
+        "band_name": "Second Artist",
+        "band_id": 6,
+        "item_url": "https://secondartist.bandcamp.com/album/second-record"
+      }
+    },
+    "wishlist": {
+      "a21": {
+        "tralbum_id": 21,
+        "tralbum_type": "a",
+        "item_title": "Wish Record",
+        "band_name": "Third Artist",
+        "band_id": 7,
+        "item_url": "https://thirdartist.bandcamp.com/album/wish-record"
+      }
+    },
+    "following_fans": {
+      "201": { "fan_id": 201, "username": "listener_one" },
+      "202": { "fan_id": 202, "trackpipe_url": "https://bandcamp.com/listener_two" }
+    }
+  },
+  "redownload_urls": { "a11": "Not retained by the adapter" },
+  "purchase_infos": { "a11": { "note": "Not retained by the adapter" } }
+}

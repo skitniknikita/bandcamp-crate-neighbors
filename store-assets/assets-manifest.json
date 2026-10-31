@@ -1,0 +1,348 @@
+{
+  "product": "Crate Neighbors for Bandcamp",
+  "generatedBy": "node scripts/store-assets.mjs",
+  "sourcePolicy": "Only local brand vectors, locally packaged IBM Plex Sans and isolated example/empty UI states are used. No authorized-check artifacts, browsing profile, real collection, cookies or downloaded album artwork are read.",
+  "guidelines": "https://developer.chrome.com/docs/webstore/images",
+  "uploads": {
+    "extensionIcon": "public/icons/icon-128.png",
+    "smallPromotional": "store-assets/promo-small-440x280.png",
+    "marquee": "store-assets/promo-marquee-1400x560.png",
+    "screenshots": "Upload en/01–05 to English and ru/01–05 to Russian. Do not upload raw component crops; optional raw/onboarding-*.png are standalone 1280×800 product screenshots."
+  },
+  "assets": [
+    {
+      "file": "public/icons/icon.svg",
+      "width": 128,
+      "height": 128,
+      "field": "Editable SVG master for normalized extension icons",
+      "alpha": true,
+      "source": "Original overlapping record-sleeve mark, same geometry as App.BrandMark."
+    },
+    {
+      "file": "store-assets/brand-mark.svg",
+      "width": 56,
+      "height": 56,
+      "field": "Editable SVG mark for website layouts",
+      "alpha": true,
+      "source": "Original App.BrandMark geometry without normalized icon padding."
+    },
+    {
+      "file": "public/icons/icon-16.png",
+      "width": 16,
+      "height": 16,
+      "field": "Manifest / brand icon",
+      "alpha": true,
+      "artworkBounds": "Normalized 75% footprint"
+    },
+    {
+      "file": "public/icons/icon-32.png",
+      "width": 32,
+      "height": 32,
+      "field": "Manifest / brand icon",
+      "alpha": true,
+      "artworkBounds": "Normalized 75% footprint"
+    },
+    {
+      "file": "public/icons/icon-48.png",
+      "width": 48,
+      "height": 48,
+      "field": "Manifest / brand icon",
+      "alpha": true,
+      "artworkBounds": "Normalized 75% footprint"
+    },
+    {
+      "file": "public/icons/icon-128.png",
+      "width": 128,
+      "height": 128,
+      "field": "Chrome Web Store extension icon; manifest icon",
+      "alpha": true,
+      "artworkBounds": {
+        "x": 16,
+        "y": 16,
+        "width": 96,
+        "height": 94
+      }
+    },
+    {
+      "file": "public/icons/icon-512.png",
+      "width": 512,
+      "height": 512,
+      "field": "Manifest / brand icon",
+      "alpha": true,
+      "artworkBounds": "Normalized 75% footprint"
+    },
+    {
+      "file": "store-assets/raw/settings-en.png",
+      "width": 800,
+      "height": 1404,
+      "field": "Source capture — not a store upload",
+      "language": "en",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/collectors-en.png",
+      "width": 800,
+      "height": 2774,
+      "field": "Source capture — not a store upload",
+      "language": "en",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/shared-en.png",
+      "width": 800,
+      "height": 1320,
+      "field": "Source capture — not a store upload",
+      "language": "en",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/seeds-en.png",
+      "width": 800,
+      "height": 828,
+      "field": "Source capture — not a store upload",
+      "language": "en",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/music-en.png",
+      "width": 800,
+      "height": 1732,
+      "field": "Source capture — not a store upload",
+      "language": "en",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/queue-en.png",
+      "width": 800,
+      "height": 738,
+      "field": "Source capture — not a store upload",
+      "language": "en",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/onboarding-en.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Optional raw Chrome Web Store screenshot",
+      "language": "en",
+      "source": "Actual product UI; empty isolated onboarding state; no collection data",
+      "demo": false
+    },
+    {
+      "file": "store-assets/raw/settings-ru.png",
+      "width": 800,
+      "height": 1476,
+      "field": "Source capture — not a store upload",
+      "language": "ru",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/collectors-ru.png",
+      "width": 800,
+      "height": 2774,
+      "field": "Source capture — not a store upload",
+      "language": "ru",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/shared-ru.png",
+      "width": 800,
+      "height": 1320,
+      "field": "Source capture — not a store upload",
+      "language": "ru",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/seeds-ru.png",
+      "width": 800,
+      "height": 828,
+      "field": "Source capture — not a store upload",
+      "language": "ru",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/music-ru.png",
+      "width": 800,
+      "height": 1732,
+      "field": "Source capture — not a store upload",
+      "language": "ru",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/queue-ru.png",
+      "width": 800,
+      "height": 774,
+      "field": "Source capture — not a store upload",
+      "language": "ru",
+      "captureScale": 2,
+      "source": "Actual product component captured at 2×, isolated synthetic example collection",
+      "demo": true
+    },
+    {
+      "file": "store-assets/raw/onboarding-ru.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Optional raw Chrome Web Store screenshot",
+      "language": "ru",
+      "source": "Actual product UI; empty isolated onboarding state; no collection data",
+      "demo": false
+    },
+    {
+      "file": "store-assets/en/01-collectors.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 1",
+      "language": "en",
+      "caption": "Find your people.",
+      "description": "Meet collectors who share your records. Explore their shelves, then follow them on Bandcamp.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/en/02-new-music.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 2",
+      "language": "en",
+      "caption": "Discover what they discovered.",
+      "description": "Find records from matching collections that are not already in your purchases or wishlist.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/en/03-shared-counts.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 3",
+      "language": "en",
+      "caption": "See what you share.",
+      "description": "Bandcamp’s shared-purchase count stays separate from the titles checked so far.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/en/04-purchases-wishlist.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 4",
+      "language": "en",
+      "caption": "Your collection. Your wishlist. Your taste.",
+      "description": "Start with records you own and records you want. Choose the releases that lead the search.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/en/05-local-privacy.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 5",
+      "language": "en",
+      "caption": "Your digging stays in your browser.",
+      "description": "Collection data is processed locally. Pause the queue and pick up where you left off.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/ru/01-collectors.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 1",
+      "language": "ru",
+      "caption": "Найди своих.",
+      "description": "Познакомься с коллекционерами, у которых есть твои любимые релизы. Исследуй их полки и подпишись на Bandcamp.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/ru/02-new-music.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 2",
+      "language": "ru",
+      "caption": "Послушай их находки.",
+      "description": "Открой музыку из похожих коллекций, которой ещё нет в твоих покупках и wishlist.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/ru/03-shared-counts.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 3",
+      "language": "ru",
+      "caption": "Посмотри, что у вас общего.",
+      "description": "Счётчик общих покупок Bandcamp показан отдельно от уже проверенных названий.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/ru/04-purchases-wishlist.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 4",
+      "language": "ru",
+      "caption": "Твои покупки. Твой wishlist. Твой вкус.",
+      "description": "Начни с того, что любишь и что хочешь купить. Выбери релизы, которые зададут направление поиска.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/ru/05-local-privacy.png",
+      "width": 1280,
+      "height": 800,
+      "field": "Chrome Web Store screenshot 5",
+      "language": "ru",
+      "caption": "Весь поиск — в твоём браузере.",
+      "description": "Коллекции обрабатываются локально. Поставь очередь на паузу и продолжи с того же места.",
+      "demo": true,
+      "source": "Actual product UI rendered from current src/App.tsx using isolated src/demo.ts example data. Shared-count values are labelled examples. No real user profile or authorization artifacts."
+    },
+    {
+      "file": "store-assets/promo-small-440x280.png",
+      "width": 440,
+      "height": 280,
+      "field": "Chrome Web Store small promotional image",
+      "language": "Non-localized English wordmark",
+      "source": "Original code-native brand illustration. No product-result claims."
+    },
+    {
+      "file": "store-assets/promo-marquee-1400x560.png",
+      "width": 1400,
+      "height": 560,
+      "field": "Chrome Web Store marquee promotional image",
+      "language": "Non-localized English wordmark",
+      "source": "Original code-native brand illustration. No product-result claims."
+    },
+    {
+      "file": "store-assets/social-og-1200x630.png",
+      "width": 1200,
+      "height": 630,
+      "field": "GitHub Pages / social Open Graph image",
+      "language": "en",
+      "demo": true,
+      "source": "Original brand layout and actual product UI with clearly labelled example collection."
+    }
+  ]
+}

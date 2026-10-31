@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://skitniknikita.github.io/bandcamp-crate-neighbors/sitemap.xml

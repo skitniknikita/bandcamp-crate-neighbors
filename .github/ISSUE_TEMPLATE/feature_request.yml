@@ -1,0 +1,17 @@
+name: Feature request / Идея
+description: Suggest an improvement to Bandcamp music discovery.
+title: "[Idea] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What are you trying to do?
+      description: Describe the discovery task and what gets in your way. English or Russian is welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help?
+    validations:
+      required: true
